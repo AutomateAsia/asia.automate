@@ -1,0 +1,55 @@
+{
+	"id": "Door-Sensor-5",
+	"class": "sensor",
+	"branch": "master",
+	"name": {
+		"en": "Door/Window Sensor 5",
+		"nl": "Deur/Raam Sensor 5"
+	},
+	"capabilities": [
+		"alarm_contact",
+		"alarm_tamper",
+		"measure_battery"
+	],
+	"images": {
+		"large": "/drivers/Door-Sensor-5/assets/images/large.png",
+		"small": "/drivers/Door-Sensor-5/assets/images/small.png"
+	},
+	"zwave": {
+		"manufacturerId": [
+			134
+		],
+		"productTypeId": [
+          2,
+          514
+		],
+		"productId": [
+			120
+		],
+		"wakeUpInterval": 300,
+		"learnmode": {
+			"image": "/drivers/Door-Sensor-5/assets/learnmode.svg",
+			"instruction": {
+				"en": "Short press the action button on the back of the Door/Window Sensor 6.",
+				"nl": "Druk kort op de actie knop op de achterkant van de Deur/Raam Sensor 6"
+			}
+		},
+		"productDocumentation": "http://Products.Z-WaveAlliance.org/ProductManual/File?folder=&filename=Manuals/1615/Door Window Sensor 6 manual.pdf",
+		"pid": 1615,
+		"imageRemotePath": "http://products.z-wavealliance.org/ProductImages/Index?productName=ZC10-16010008",
+		"associationGroups": [
+			1
+		],
+		"associationGroupsOptions": {
+			"1": {
+				"hint": {
+					"en": "Group 1 is assigned to the Lifeline association group and every device has 5 nodes to associate. The sensor binary report, basic set or notification report command can be sent in this group when the Sensor is triggered.",
+					"nl": "Groep 1 is toegewezen aan de Lifeline associatie groep en elk apparaat heeft 5 nodes om te associëren. Sensory binary report, basic set of notification report commando's kunnen worden verstuurd in deze groep wanneer de sensor wordt getriggered."
+				}
+			}
+		}
+	},
+	"settings": [
+
+	]
+}

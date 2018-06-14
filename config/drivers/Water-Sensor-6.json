@@ -1,0 +1,54 @@
+{
+	"id": "Water-Sensor-6",
+	"branch": "master",
+	"name": {
+		"en": "Water Sensor"
+	},
+	"zwave": {
+		"manufacturerId": 134,
+		"productTypeId": 2,
+		"productId": 122,
+		"learnmode": {
+			"image": "/drivers/Water-Sensor-6/assets/learnmode.svg",
+			"instruction": {
+				"en": "Press the Z-Wave button on your Water Sensor",
+				"nl": "Druk op de Z-Wave knop op de Water Sensor"
+			}
+		},
+		"associationGroups": [
+			1
+		],
+		"defaultConfiguration": [
+		]
+	},
+	"class": "sensor",
+	"capabilities": [
+		"measure_battery",
+		"alarm_water"
+	],
+	"images": {
+		"large": "/drivers/Water-Sensor-6/assets/images/large.png",
+		"small": "/drivers/Water-Sensor-6/assets/images/small.png"
+	},
+	"settings": [
+		{
+			"id": "buzzer",
+			"value": 1,
+			"label": {
+				"en": "Enable/ disable the buzzer"
+			},
+			"hint": {
+				"en": "0 - Disable, 1- Enable"
+			},
+			"zwave": {
+				"index": 86,
+				"size": 1
+			},
+			"attr": {
+				"min": 0,
+				"max": 1
+			},
+			"type": "number"
+		}
+	]
+}
