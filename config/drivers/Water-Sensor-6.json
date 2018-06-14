@@ -27,8 +27,8 @@
 		"alarm_water"
 	],
 	"images": {
-		"large": "/drivers/Water-Sensor-6/assets/images/large.png",
-		"small": "/drivers/Water-Sensor-6/assets/images/small.png"
+		"large": "/drivers/Water-Sensor-6/assets/images/large.jpg",
+		"small": "/drivers/Water-Sensor-6/assets/images/small.jpg"
 	},
 	"settings": [
 		{

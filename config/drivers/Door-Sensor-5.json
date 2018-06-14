@@ -12,8 +12,8 @@
 		"measure_battery"
 	],
 	"images": {
-		"large": "/drivers/Door-Sensor-5/assets/images/large.png",
-		"small": "/drivers/Door-Sensor-5/assets/images/small.png"
+		"large": "/drivers/Door-Sensor-5/assets/images/large.jpg",
+		"small": "/drivers/Door-Sensor-5/assets/images/small.jpg"
 	},
 	"zwave": {
 		"manufacturerId": [

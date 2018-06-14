@@ -4,7 +4,7 @@
   "name": {
     "en": "Automate Asia"
   },
-  "version": "1.0.1",
+  "version": "1.0.0",
   "compatibility": ">=1.5.2",
   "author": {
     "name": "Mike Lim",
@@ -45,8 +45,8 @@
         "measure_battery"
       ],
       "images": {
-        "large": "/drivers/Door-Sensor-5/assets/images/large.png",
-        "small": "/drivers/Door-Sensor-5/assets/images/small.png"
+        "large": "/drivers/Door-Sensor-5/assets/images/large.jpg",
+        "small": "/drivers/Door-Sensor-5/assets/images/small.jpg"
       },
       "zwave": {
         "manufacturerId": [
@@ -165,8 +165,8 @@
         "alarm_water"
       ],
       "images": {
-        "large": "/drivers/Water-Sensor-6/assets/images/large.png",
-        "small": "/drivers/Water-Sensor-6/assets/images/small.png"
+        "large": "/drivers/Water-Sensor-6/assets/images/large.jpg",
+        "small": "/drivers/Water-Sensor-6/assets/images/small.jpg"
       },
       "settings": [
         {

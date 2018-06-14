@@ -2,14 +2,14 @@
 
 const Homey = require('homey');
 
-class MCOhomeApp extends Homey.App {
+class AutomateAsiaApp extends Homey.App {
 
 	onInit() {
 
-		this.log('MCOhomeApp is running...');
+		this.log('AutomateAsiaApp is running...');
 
 	}
 
 }
 
-module.exports = MCOhomeApp;
+module.exports = AutomateAsiaApp;
